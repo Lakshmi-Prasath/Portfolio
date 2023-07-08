@@ -1,5 +1,7 @@
 import React from 'react'
 import project from '../../assets/jpeg/project-mockup-example.jpeg'
+import expenseTracker from '../../assets/png/expense-tracker.png'
+
 function Projects() {
     return (
         <section id="projects" className="projects sec-pad">
@@ -15,7 +17,7 @@ function Projects() {
                     <div className="projects__row">
                         <div className="projects__row-img-cont">
                             <img
-                                src={project}
+                                src={expenseTracker}
                                 alt="Software Screenshot"
                                 className="projects__row-img"
                                 loading="lazy"
